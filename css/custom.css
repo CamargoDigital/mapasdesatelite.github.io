@@ -1,0 +1,17 @@
+.marketing {
+  background-color: #2d4c7d;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+body {
+
+	padding-top: 40px;
+}
+
+.pdt{
+	border-top: dotted 1px #ccc;
+    padding-top: 10px;
+    padding-bottom: 13px;
+}
