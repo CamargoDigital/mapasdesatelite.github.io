@@ -9,7 +9,7 @@
   background-position: center center;
 }
 
-body {padding-top: 20px;}
+body {/* padding-top: 20px; */}
 
 .pdt{
 	border-top: dotted 1px #ccc;
