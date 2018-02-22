@@ -31,7 +31,7 @@ const Carousel = (() => {
 
   const Default = {
     interval : 5000,
-    keyboard : true,
+    keyboard : false,
     slide    : false,
     pause    : 'hover',
     wrap     : true

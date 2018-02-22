@@ -79,7 +79,7 @@ body {/* padding-top: 20px; */}
 
 .mega-dropdown-menu > li > ul > li > a {
   display: block;
-  padding: 3px 20px;
+  padding: 3px 0px;
   clear: both;
   font-weight: normal;
   line-height: 1.428571429;

@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-  <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111523483-1"></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="img/favicon.ico">
-    <title>Agro Mapas</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/carousel.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700" rel="stylesheet">
-    <script src="js/jquery.js"></script>
-    <script src="js/carousel.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
-  </head>
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111523483-1"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="img/favicon.ico">
+  <title>Agro Mapas</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/carousel.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700" rel="stylesheet">
+  <script src="js/jquery.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+</head>
 
 
 <body>
 
-<nav class="navbar navbar-default visible-xs">
+<nav class="navbar navbar-default visible-xs" style="position: fixed; z-index: 100; border-bottom: 1px solid #2d4c7d; width: 100%;">
 
     <div class="navbar-header" style="font-size: 12px; color: #fff; padding: 15px;">
       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
@@ -32,7 +32,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="index.html"><img src="img/logo.png" style="float: left; width: 130px;  margin-top: 3px;"></a>
+      <a href="index.html"><img src="img/logo.png" style="float: left; width: 150px;  margin-top: 3px;"></a>
     </div>
 
 
@@ -42,236 +42,259 @@
 
           <div class="col-xs-4">
 
-              <li class="dropdown-header"><strong>Mapas de Satélite:</strong></li>
-              <li class="dropdown-header"><a href="oeste-da-bahia.html" style="">Oeste da Bahia</a></li>
-              <li class="dropdown-header"><a href="xingu.html">Região do Xingú/MT</a></li>
-              <li class="dropdown-header"><a href="maranhao.html">Sul do Maranhão</a></li>
-              <li class="dropdown-header"><a href="tocantins.html">Tocantins Completo</a></li>
-              <li class="dropdown-header"><a href="mapitopa.html">MA-PI-TO-PA</a></li>
-              <li class="dropdown-header"><a href="mapito.html">MA-PI-TO</a></li>
-              <li class="dropdown-header"><a href="sao-desiderio.html">São Desidério/BA</a></li>
-              <li class="dropdown-header"><a href="lem.html">Luiz Eduardo/BA</a></li>
-              <li class="dropdown-header"><a href="bom-jesus.html">Bom Jesus/PI</a></li>
+            <li class="dropdown-header"><strong>Mapas de Satélite:</strong></li>
+            <li class="dropdown-header"><a href="oeste-da-bahia.html" style="">Oeste da Bahia</a></li>
+            <li class="dropdown-header"><a href="piaui.html">Piaui</a></li>
+            <li class="dropdown-header"><a href="xingu.html">Região do Xingú/MT</a></li>
+            <li class="dropdown-header"><a href="tocantins.html">Tocantins Completo</a></li>
+            <li class="dropdown-header"><a href="sao-desiderio.html">São Desidério/BA</a></li>
+            <li class="dropdown-header"><a href="mapitopa.html">MA-PI-TO-PA</a></li>
+
+            <li class="dropdown-header"><a href="maranhao.html">Sul do Maranhão</a></li>
+            <li class="dropdown-header"><a href="mapito.html">MA-PI-TO</a></li>
+            <li class="dropdown-header"><a href="lem.html">Luiz Eduardo/BA</a></li>
 
           </div>
 
           <div class="col-xs-4">
-              <li class="dropdown-header"><strong>Guias Fenologicos:</strong></li>
-              <li class="dropdown-header"><a href="oeste-da-bahia.html" style="">Fen. da Soja</a></li>
-              <li class="dropdown-header"><a href="xingu.html">Fen. do Milho</a></li>
-              <li class="dropdown-header"><a href="maranhao.html">Fen. do Algodão</a></li><br>
-              <li class="dropdown-header"><strong>Doenças e Pragas:</strong></li>
-              <li class="dropdown-header"><a href="mapitopa.html">Doenças da Soja</a></li>
-              <li class="dropdown-header"><a href="mapito.html">Doenças do Milho</a></li>
-              <li class="dropdown-header"><a href="sao-desiderio.html">Doenças do Algodão</a></li>
+            <li class="dropdown-header"><strong>Guias Fenologicos:</strong></li>
+            <li class="dropdown-header"><a href="fenologiadasoja.html" style="">Fen. da Soja</a></li>
+            <li class="dropdown-header"><a href="fenologiadomilho.html">Fen. do Milho</a></li>
+            <li class="dropdown-header"><a href="fenologiadoalgodao.html">Fen. do Algodão</a></li><br>
+            <li class="dropdown-header"><strong>Doenças e Pragas:</strong></li>
+            <li class="dropdown-header"><a href="doencasdasoja.html">Doenças da Soja</a></li>
+            <li class="dropdown-header"><a href="doencasdomilho.html">Doenças do Milho</a></li>
+            <li class="dropdown-header"><a href="doencasdoalgodao.html">Doenças do Algodão</a></li>
           </div>
 
           <div class="col-xs-4">
-              <li class="dropdown-header"><strong>Mapas Rodoviários:</strong></li>
-              <li class="dropdown-header"><a href="oeste-da-bahia.html" style="">Bahia</a></li>
-              <li class="dropdown-header"><a href="xingu.html">Maranhão</a></li>
-              <li class="dropdown-header"><a href="maranhao.html">Tocantins</a></li><br>
-              <li class="dropdown-header"><strong>Fenologia:</strong></li>
-              <li class="dropdown-header"><a href="mapitopa.html">Institucional</a></li>
-              <li class="dropdown-header"><a href="mapito.html">Portfolio</a></li>
-              <li class="dropdown-header"><a href="sao-desiderio.html">Contato</a></li>
+            <li class="dropdown-header"><strong>Mapas Rodoviários:</strong></li>
+            <li class="dropdown-header"><a href="bahia-rodoviario.html" style="">Bahia</a></li>
+            <li class="dropdown-header"><a href="maranhao-rodoviario.html">Maranhão</a></li>
+            <li class="dropdown-header"><a href="tocantins-rodoviario.html">Tocantins</a></li><br>
+            <li class="dropdown-header"><strong>Links:</strong></li>
+            <li class="dropdown-header"><a href="institucional.html">Institucional</a></li>
+            <li class="dropdown-header"><a href="portfolio.html">Portfolio</a></li>
+            <li class="dropdown-header"><a href="contato.html">Contato</a></li>
           </div>
 
         </div>
       </div>
-    </div></nav>
-
-
-<div class="container hidden-xs" style="padding-bottom: 20px; padding-top: 20px;">
-  <div class="row">
-
-  <div class="col-md-8 col-sm-8">
-    <a href="index.html"><img src="img/logo.png" style="float: left; width: 250px;"></a>
-  </div>
-
-  <div class="col-md-4 col-sm-4" align="right">
-    <h4 style="margin-bottom: 5px; margin-top: 0;">Telefone e Whatsapp:</h4>
-    <h1 style="margin-bottom: -10px; margin-top: -10px; color: #2d4c7d;"><strong><span style="font-size: 18px;">(77)</span> 99822-5734</strong></h1>
-  </div>
-
-  </div>
-</div>
-
-<div class="container hidden-xs" style="z-index: 1000; margin-bottom: -20px">
-  <nav class="navbar navbar-default" style="background-color: #2d4c7d;">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-        <span class="sr-only">Nevegação</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"> <span class="glyphicon glyphicon-chevron-right"> </span> INÍCIO</a>
-      <a class="navbar-brand" href="institucional.html"> <span class="glyphicon glyphicon-chevron-right"> </span> INSTITUCIONAL</a>
-      <a class="navbar-brand hidden-sm" href="nosso-trabalho.html"> <span class="glyphicon glyphicon-chevron-right"> </span> NOSSO TRABALHO</a>
-      <a class="navbar-brand" href="portfolio.html"> <span class="glyphicon glyphicon-chevron-right"> </span> PORTFOLIO</a>
-      <a class="navbar-brand" href="clientes.html"> <span class="glyphicon glyphicon-chevron-right"> </span> CLIENTES</a>
-      <a class="navbar-brand" href="contato.html"> <span class="glyphicon glyphicon-chevron-right"> </span> CONTATO</a>
     </div>
+</nav>
+
+  <div class="container hidden-xs" style="padding-bottom: 20px; padding-top: 20px;">
+    <div class="row">
+
+      <div class="col-md-8 col-sm-8">
+        <a href="index.html"><img src="img/logo.png" style="float: left; width: 250px;"></a>
+      </div>
+
+      <div class="col-md-4 col-sm-4" align="right">
+        <h4 style="margin-bottom: 5px; margin-top: 0;">Telefone e Whatsapp:</h4>
+        <h1 style="margin-bottom: -10px; margin-top: -10px; color: #2d4c7d;"><strong><span style="font-size: 18px;">(77)</span> 99822-5734</strong></h1>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container hidden-xs" style="z-index: 1000; margin-bottom: -20px">
+    <nav class="navbar navbar-default" style="background-color: #2d4c7d;">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+          <span class="sr-only">Nevegação</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"> <span class="glyphicon glyphicon-chevron-right"> </span> INÍCIO</a>
+        <a class="navbar-brand" href="institucional.html"> <span class="glyphicon glyphicon-chevron-right"> </span> INSTITUCIONAL</a>
+        <a class="navbar-brand hidden-sm" href="nosso-trabalho.html"> <span class="glyphicon glyphicon-chevron-right"> </span> NOSSO TRABALHO</a>
+        <a class="navbar-brand" href="portfolio.html"> <span class="glyphicon glyphicon-chevron-right"> </span> PORTFOLIO</a>
+        <a class="navbar-brand" href="clientes.html"> <span class="glyphicon glyphicon-chevron-right"> </span> CLIENTES</a>
+        <a class="navbar-brand" href="contato.html"> <span class="glyphicon glyphicon-chevron-right"> </span> CONTATO</a>
+      </div>
 
 
-    <div class="collapse navbar-collapse js-navbar-collapse hidden-xs">
-      <ul class="nav navbar-nav pull-right" style="background-color: #859e25;">
-        <li class="dropdown mega-dropdown" align="center">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">NOSSOS PRODUTOS <span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+      <div class="collapse navbar-collapse js-navbar-collapse hidden-xs">
+        <ul class="nav navbar-nav pull-right" style="background-color: #859e25;">
+          <li class="dropdown mega-dropdown" align="center">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">NOSSOS PRODUTOS <span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
 
-          <ul class="dropdown-menu mega-dropdown-menu row">
+            <ul class="dropdown-menu mega-dropdown-menu row">
 
-        <li class="col-lg-2 hidden-sm hidden-md">
-              <ul>
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
+              <li class="col-lg-2 hidden-sm hidden-md col-md-3">
+                <ul>
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
 
 
 
-                    <div class="item active" align="center">
-                      <a href="oeste-da-bahia.html"><img src="img/menu/bahia.jpg" class="img-responsive" alt="product 1"></a>
-                      <h4 style="font-weight: bold; margin-top: 0px;">Oeste da Bahia</h4>
+                      <div class="item active" align="center">
+                        <a href="oeste-da-bahia.html"><img src="img/menu/bahia.jpg" class="img-responsive" alt="product 1"></a>
+                        <h4 style="font-weight: bold; margin-top: 0px;">Oeste da Bahia</h4>
+                      </div>
+
+                      <div class="item" align="center">
+                        <a href="xingu.html"><img src="img/menu/xingu.jpg" class="img-responsive" alt="product 1"></a>
+                        <h4 style="font-weight: bold; margin-top: 0px;">Xingú/MT</h4>
+                      </div>
+
+                      <div class="item" align="center">
+                        <a href="tocantins.html"><img src="img/menu/tocantins.jpg" class="img-responsive" alt="product 1"></a>
+                        <h4 style="font-weight: bold; margin-top: 0px;">Tocantins</h4>
+                      </div>
+
                     </div>
+                  </div>
+                </ul>
+              </li>
 
-                    <div class="item" align="center">
-                      <a href="xingu.html"><img src="img/menu/xingu.jpg" class="img-responsive" alt="product 1"></a>
-                      <h4 style="font-weight: bold; margin-top: 0px;">Xingú/MT</h4>
-                    </div>
+              <li class="col-lg-2 col-md-4 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Mapas de Satélite:</li>
+                  <li><a href="oeste-da-bahia.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Oeste da Bahia</a></li>
+                  <li><a href="piaui.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Piaui/Bom Jesus</a></li>               
+                  <li><a href="xingu.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Região do Xingú/MT</a></li>
+                  <li><a href="tocantins.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Tocantins Completo</a></li>
+                  <li><a href="mapitopa.html"> <span class="glyphicon glyphicon-chevron-right"> </span> MA-PI-TO-PA</a></li>
+                  <li><a href="sao-desiderio.html"> <span class="glyphicon glyphicon-chevron-right"> </span> São Desidério/BA</a></li>                
 
-                    <div class="item" align="center">
-                      <a href="tocantins.html"><img src="img/menu/tocantins.jpg" class="img-responsive" alt="product 1"></a>
-                      <h4 style="font-weight: bold; margin-top: 0px;">Tocantins</h4>
+                  <li><a href="mapito.html"> <span class="glyphicon glyphicon-chevron-right"> </span> MA-PI-TO</a></li>
+                  <li><a href="maranhao.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Sul do Maranhão</a></li>
+                  <li><a href="lem.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Luiz Eduardo/BA</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-2 col-md-4 col-sm-4">
+                <ul>
+
+                  <li class="dropdown-header">Guias Fenológicos:</li>
+                  <li><a href="fenologiadasoja.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Fenologia da Soja</a></li>
+                  <li><a href="fenologiadomilho.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Fenologia do Milho</a></li>
+                  <li><a href="fenologiadoalgodao.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Fenologia do Algodão</a></li>
+                  <li class="divider"></li>
+
+                  <li class="dropdown-header">Mapas Rodoviários:</li>
+                  <li><a href="bahia-rodoviario.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Estado da Bahia</a></li>
+                  <li><a href="tocantins-rodoviario.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Estado do Tocantins</a></li>
+                  <li><a href="brasil-rodoviario.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Brasil completo</a></li>
+                  <li><a href="mapas-rodoviarios.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Ver mais...</a></li>
+
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-4 col-sm-4">
+                <ul>
+
+                  <li class="dropdown-header">Sintomas e Deficiências:</li>
+                  <li><a href="pragasedoencasdasoja.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Pragas e doenças da Soja</a></li>
+                  <li><a href="pragasedoencasdomilho.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Pragas e doenças do Milho</a></li>
+                  <li><a href="pragasedoencasdoalgodao.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Pragas e doenças do Algodão</a></li>
+                  <li class="divider"></li>
+
+                  <li class="dropdown-header">Demanda sob pedido:</li>
+                  <li><a href="#">Cobrimos todo o território nacional. Atendemos pedidos específicos de acordo com o projeto do cliente. Entre em contato conosco e solicite um orçamento sem compromisso.</a></li>
+
+                </ul>
+              </li>
+
+              <li class="col-lg-3 col-md-3 hidden-sm hidden-md">
+                <ul>
+                  <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+
+
+
+                      <div class="item active" align="center">
+                        <a href="sao-desiderio.html"><img src="img/menu/sao-desiderio.jpg" class="img-responsive" alt="product 1"></a>
+                        <h4 style="font-weight: bold;">São Desidério/BA</h4><h5 style="margin-top: -10px">2,50 x 3,00 m</h5>
+                      </div>
+
+
+                      <div class="item" align="center">
+                        <a href="mapitopa.html"><img src="img/menu/mapitopa.jpg" class="img-responsive" alt="product 1"></a>
+                        <h4 style="font-weight: bold;">MA-PI-TO-PA</h4><h5 style="margin-top: -10px">2,50 x 3,00 m</h5>
+
+                      </div>
+
                     </div>
 
                   </div>
-                </div>
-              </ul>
-            </li>
+                </ul>
+              </li>
 
-            <li class="col-lg-2 col-md-4 col-sm-4">
-              <ul>
-                <li class="dropdown-header">Mapas de Satélite:</li>
-                <li><a href="oeste-da-bahia.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Oeste da Bahia</a></li>
-                <li><a href="xingu.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Região do Xingú/MT</a></li>
-                <li><a href="maranhao.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Sul do Maranhão</a></li>
-                <li><a href="tocantins.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Tocantins Completo</a></li>
-                <li><a href="mapitopa.html"> <span class="glyphicon glyphicon-chevron-right"> </span> MA-PI-TO-PA</a></li>
-                <li><a href="mapito.html"> <span class="glyphicon glyphicon-chevron-right"> </span> MA-PI-TO</a></li>
-                <li><a href="sao-desiderio.html"> <span class="glyphicon glyphicon-chevron-right"> </span> São Desidério/BA</a></li>
-                <li><a href="lem.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Luiz Eduardo/BA</a></li>
-                <li><a href="bom-jesus.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Bom Jesus/PI</a></li>
-              </ul>
-            </li>
-            <li class="col-lg-2 col-md-4 col-sm-4">
-              <ul>
+            </ul>
+          </li>
+        </ul>
 
-                <li class="dropdown-header">Guias Fenológicos:</li>
-                <li><a href="fenologiadasoja.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Fenologia da Soja</a></li>
-                <li><a href="fenologiadomilho.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Fenologia do Milho</a></li>
-                <li><a href="fenologiadoalgodao.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Fenologia do Algodão</a></li>
-                <li class="divider"></li>
+      </div>
+    </nav>
+  </div>
 
-                <li class="dropdown-header">Mapas Rodoviários:</li>
-                <li><a href="bahia-rodoviario.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Estado da Bahia</a></li>
-                <li><a href="tocantins-rodoviario.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Estado do Tocantins</a></li>
-                <li><a href="brasil-rodoviario.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Brasil completo</a></li>
-                <li><a href="mapas-rodoviarios.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Ver mais...</a></li>
+  <!-- ######################################################################## -->
 
-              </ul>
-            </li>
-            <li class="col-lg-3 col-md-4 col-sm-4">
-              <ul>
-
-                <li class="dropdown-header">Sintomas e Deficiências:</li>
-                <li><a href="pragasedoencasdasoja.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Pragas e doenças da Soja</a></li>
-                <li><a href="pragasedoencasdomilho.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Pragas e doenças do Milho</a></li>
-                <li><a href="pragasedoencasdoalgodao.html"> <span class="glyphicon glyphicon-chevron-right"> </span> Pragas e doenças do Algodão</a></li>
-                <li class="divider"></li>
-
-                <li class="dropdown-header">Demanda sob pedido:</li>
-                <li><a href="#">Cobrimos todo o território nacional. Atendemos pedidos específicos de acordo com o projeto do cliente. Entre em contato conosco e solicite um orçamento sem compromisso.</a></li>
-
-              </ul>
-            </li>
-
-        <li class="col-lg-3 col-md-3 hidden-sm hidden-md">
-              <ul>
-                <div id="myCarousel2" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-
-
-
-                    <div class="item active" align="center">
-                      <a href="sao-desiderio.html"><img src="img/menu/sao-desiderio.jpg" class="img-responsive" alt="product 1"></a>
-                       <h4 style="font-weight: bold;">São Desidério/BA</h4><h5 style="margin-top: -10px">2,50 x 3,00 m</h5>
-                    </div>
-
-
-                    <div class="item" align="center">
-                      <a href="mapitopa.html"><img src="img/menu/mapitopa.jpg" class="img-responsive" alt="product 1"></a>
-                       <h4 style="font-weight: bold;">MA-PI-TO-PA</h4><h5 style="margin-top: -10px">2,50 x 3,00 m</h5>
-
-                    </div>
-
-                  </div>
-
-                </div>
-              </ul>
-            </li>
-
-          </ul>
-        </li>
-      </ul>
-
-    </div>
-  </nav>
+<div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel" style="margin-bottom: 60px; z-index: -1000;">
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img class="first-slide" src="img/slide-1.jpg" alt="First slide">
+            </div>
+            <div class="item">
+              <img class="second-slide" src="img/slide-2.jpg" alt="Second slide">
+            </div>
+            <div class="item">
+              <img class="third-slide" src="img/slide-3.jpg" alt="Third slide">
+            </div>
+          </div>
 </div>
 
-  <div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel" style="margin-bottom: 60px; z-index: -1000;">
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img class="first-slide" src="img/slide-1.jpg" alt="First slide">
-              </div>
-              <div class="item">
-                <img class="second-slide" src="img/slide-2.jpg" alt="Second slide">
-              </div>
-              <div class="item">
-                <img class="third-slide" src="img/slide-3.jpg" alt="Third slide">
-              </div>
-            </div>
-  </div>
-
-    <div id="myCarousel" class="carousel slide visible-xs" data-ride="carousel" style="margin-bottom: 20px;">
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img class="first-slide" src="img/xs/1.jpg" alt="First slide">
-              </div>
-              <div class="item">
-                <img class="second-slide" src="img/xs/2.jpg" alt="Second slide">
-              </div>
-              <div class="item">
-                <img class="third-slide" src="img/xs/3.jpg" alt="Third slide">
-              </div>
-            </div>
-  </div>
+<div id="myCarousel" class="carousel slide visible-xs" data-ride="carousel" style="margin-bottom: 20px; padding-top: 40px;">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img class="first-slide" src="img/xs/1.jpg" alt="First slide">
+          </div>
+          <div class="item">
+            <img class="second-slide" src="img/xs/2.jpg" alt="Second slide">
+          </div>
+          <div class="item">
+            <img class="third-slide" src="img/xs/3.jpg" alt="Third slide">
+          </div>
+        </div>
+</div>
 
 
    
-  <div class="container" style="border-right: 5px solid #2d4c7d; border-left: 5px solid #2d4c7d; margin-bottom: 40px;" align="center">
-    <h2 class="visible-xs" style="font-weight: bold;">MAPAS E IMAGENS<br class="visible-xs" > DE SATÉLITE<h4 class="visible-xs" style="font-weight: bold;"> PARA O SETOR AGRÍCOLA, LOGÍSTICA, IMOBILIÁRIO E TRANSPORTES</h4></h2>
-    <h2 class="hidden-xs" style="font-weight: bold;">MAPAS E IMAGENS DE SATÉLITE PARA O SETOR AGRÍCOLA, LOGÍSTICA, IMOBILIÁRIO E TRANSPORTES</h2>
-    <p>Imagens de satélite com resolução espacial de 30 ou 15 metros. Ideal para área urbana, projetos de loteamentos, plano diretor, localização de imóveis e muito mais.</p> 
-  </div>
+<div class="container" style="border-right: 5px solid #2d4c7d; border-left: 5px solid #2d4c7d; margin-bottom: 40px;" align="center">
+  <h2 class="visible-xs" style="font-weight: bold;">MAPAS E IMAGENS<br class="visible-xs" > DE SATÉLITE</h2>
+  <h2 class="hidden-xs" style="font-weight: bold;">MAPAS E IMAGENS DE SATÉLITE PARA O SETOR AGRÍCOLA,<br class="visible-md" > LOGÍSTICA, IMOBILIÁRIO E TRANSPORTES</h2>
+</div>
 
 
     <div class="container">
       <div class="row" align="center">
 
         <div class="col-md-1"></div> 
-        <div class="col-md-10" align="center"><img src="img/amostra-grande.jpg" class="img-responsive"></div> 
-        <div class="col-md-1"></div> 
+        <div class="col-md-10" align="center">
 
+                  <img src="img/amostra-grande.jpg" class="img-responsive">
+
+
+                <div class="row">
+                <div class="col-md-4 col-sm-4">
+                  <h3>Conteúdo</h3>
+                  <p>Imóveis rurais com nomes, hidrografia, isoietas, localidades, estradas, reservas, terras indígenas e áreas de preservação.</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                  <h3>Finalidade</h3>
+                  <p>Ideal para área urbana, projetos de loteamentos, plano diretor, localização de imóveis e muito mais.</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                  <h3>Qualidade</h3>
+                  <p>Material impresso em Alta Definição. Utilizamos lona especial e tinta original para garantir excelente durabilidade</p>
+                </div>
+              </div>
+
+
+            <div class="col-md-1"></div> 
+        </div> 
       </div>          
    </div>
 
@@ -284,8 +307,6 @@
 
   <div class="container" style="border-right: 5px solid #2d4c7d; border-left: 5px solid #2d4c7d; margin-bottom: 40px;" align="center">
     <h2 style="font-weight: bold;">PRINCIPAIS TRABALHOS</h2>
-    <p>Mapas de regiões ou municípios contendo: imóveis rurais com nomes, hidrografia, isoietas, localidades, estradas, reservas, áreas de preservação. <br class="hidden-xs hidden-sm hidden-md">Material impresso em HD, lona especial e tinta original. Arquivos em SIG.</p> 
-  <p style="color: red; font-size: 12px; border: 1px solid; padding: 5px; width: 150px; border-radius: 50px;">CLIQUE PARA AMPLIAR</p> 
   </div>
 
 
@@ -339,9 +360,8 @@
 
 
   <div class="container" style="border-right: 5px solid #2d4c7d; border-left: 5px solid #2d4c7d; margin-bottom: 40px;" align="center">
-    <h2 style="font-weight: bold;">ALGODÃO, MILHO E SOJA</h2>
+    <h2 style="font-weight: bold;">FENOLOGIA, DOENÇAS E PRAGAS</h2>
     <p>Mapas de doenças, pragas, desenvolvimento, deficiências e absorção de nutrientes dos seguintes cultivares: SOJA, MILHO e AlGODÃO.</p> 
-  <p style="color: red; font-size: 12px; border: 1px solid; padding: 5px; width: 150px; border-radius: 50px;">CLIQUE PARA AMPLIAR</p> 
   </div>
 
 
@@ -403,7 +423,7 @@
 
   <div class="container" style="border-right: 5px solid #2d4c7d; border-left: 5px solid #2d4c7d; margin-bottom: 40px;" align="center">
     <h2 style="font-weight: bold;">NOSSOS CLIENTES</h2>
-    <p>Nossos clientes são a pedra fundamental para que nós continuemos a nos aprimorar nossa área técnica e oferecer o melhor produto.</p> 
+    <p>Nossos clientes são a pedra fundamental para continuarmos a aprimorar<br class="visible-sm"> nossa área técnica e oferecer o melhor produto.</p> 
   </div>
 
 
@@ -412,67 +432,67 @@
 
 
 
-    <div class="col-md-2 col-sm-3 col-xs-4" style="margin-bottom:40px;">
+    <div class="col-md-2 col-sm-2 col-xs-4" style="margin-bottom:40px;">
       <img src="img/clientes/rabobank.jpg" class="img-responsive">
-      <h5 class="hidden-xs" style="margin-top:">Balsas/Barreiras/Querência</h5>
+      <h5 class="hidden-xs hidden-sm" style="margin-top:">Balsas/Barreiras/Querência</h5>
     </div>
 
-    <div class="col-md-2 col-sm-3 col-xs-4" style="margin-bottom:40px;">
+    <div class="col-md-2 col-sm-2 col-xs-4" style="margin-bottom:40px;">
       <img src="img/clientes/sicredi.jpg" class="img-responsive">
-      <h5  class="hidden-xs" style="margin-top:">LEM/Querência</h5>
+      <h5  class="hidden-xs hidden-sm" style="margin-top:">LEM/Querência</h5>
     </div>
 
 
-    <div class="col-md-2 col-sm-3 col-xs-4" style="margin-bottom:40px;">
+    <div class="col-md-2 col-sm-2 col-xs-4" style="margin-bottom:40px;">
       <img src="img/clientes/amaggi.jpg" class="img-responsive">
-    <h5 class="hidden-xs"  style="margin-top:">LEM/Balsas/Querência</h5>
+    <h5 class="hidden-xs hidden-sm"  style="margin-top:">LEM/Balsas/Querência</h5>
     </div>
 
-    <div class="col-md-2 col-sm-3 col-xs-4" style="margin-bottom:40px;">
+    <div class="col-md-2 col-sm-2 col-xs-4" style="margin-bottom:40px;">
       <img src="img/clientes/adm.jpg" class="img-responsive">
-    <h5 class="hidden-xs"  style="margin-top:">LEM/BA</h5>
+    <h5 class="hidden-xs hidden-sm"  style="margin-top:">LEM/BA</h5>
     </div>
 
 
-    <div class="col-md-2 col-sm-3 col-xs-4" style="margin-bottom:40px;">
+    <div class="col-md-2 col-sm-2 col-xs-4" style="margin-bottom:40px;">
       <img src="img/clientes/bungue.jpg" class="img-responsive">
-    <h5  class="hidden-xs" style="margin-top:">LEM/BA</h5>
+    <h5  class="hidden-xs hidden-sm" style="margin-top:">LEM/BA</h5>
     </div>
 
 
-    <div class="col-md-2 col-sm-3 col-xs-4" style="margin-bottom:40px;">
+    <div class="col-md-2 col-sm-2 col-xs-4" style="margin-bottom:40px;">
       <img src="img/clientes/chs.jpg" class="img-responsive">
-    <h5  class="hidden-xs" style="margin-top:">Palmas/Balsas</h5>
+    <h5  class="hidden-xs hidden-sm" style="margin-top:">Palmas/Balsas</h5>
     </div>
 
-    <div class="col-md-2 col-sm-3 col-xs-4" style="margin-bottom:40px;">
+    <div class="col-md-2 col-sm-2 col-xs-4" style="margin-bottom:40px;">
       <img src="img/clientes/fundacao-bahia.jpg" class="img-responsive">
-    <h5  class="hidden-xs" style="margin-top:">LEM/BA</h5>
+    <h5  class="hidden-xs hidden-sm" style="margin-top:">LEM/BA</h5>
     </div>
 
-    <div class="col-md-2 col-sm-3 col-xs-4" style="margin-bottom:40px;">
+    <div class="col-md-2 col-sm-2 col-xs-4" style="margin-bottom:40px;">
       <img src="img/clientes/aprosoja.jpg" class="img-responsive">
-    <h5  class="hidden-xs" style="margin-top:">Bom Jesus/PI</h5>
+    <h5  class="hidden-xs hidden-sm" style="margin-top:">Bom Jesus/PI</h5>
     </div>
 
-    <div class="col-md-2 col-sm-3 col-xs-4" style="margin-bottom:40px;">
+    <div class="col-md-2 col-sm-2 col-xs-4" style="margin-bottom:40px;">
       <img src="img/clientes/lavrobras.jpg" class="img-responsive">
-    <h5  class="hidden-xs" style="margin-top:">LEM/BA - Posse/GO</h5>
+    <h5  class="hidden-xs hidden-sm" style="margin-top:">LEM/BA - Posse/GO</h5>
     </div>
 
-    <div class="col-md-2 col-sm-3 col-xs-4" style="margin-bottom:40px;">
+    <div class="col-md-2 col-sm-2 col-xs-4" style="margin-bottom:40px;">
       <img src="img/clientes/germina.jpg" class="img-responsive">
-    <h5  class="hidden-xs" style="margin-top:">LEM/BA</h5>
+    <h5  class="hidden-xs hidden-sm" style="margin-top:">LEM/BA</h5>
     </div>
 
-    <div class="col-md-2 col-sm-3 col-xs-4" style="margin-bottom:40px;">
+    <div class="col-md-2 col-sm-2 col-xs-4" style="margin-bottom:40px;">
       <img src="img/clientes/adama.jpg" class="img-responsive">
-    <h5 class="hidden-xs"  style="margin-top:">LEM/BA</h5>
+    <h5 class="hidden-xs hidden-sm"  style="margin-top:">LEM/BA</h5>
     </div>
 
-    <div class="col-md-2 col-sm-3 col-xs-4" style="margin-bottom:40px;">
+    <div class="col-md-2 col-sm-2 col-xs-4" style="margin-bottom:40px;">
       <img src="img/clientes/pm-querencia.jpg" class="img-responsive">
-    <h5  class="hidden-xs" style="margin-top:">Querência/MT</h5>
+    <h5  class="hidden-xs hidden-sm" style="margin-top:">Querência/MT</h5>
     </div>
 
   </div>
@@ -511,41 +531,42 @@
 <div class="container" style="background-color: #acca3d; height: 5px; margin-bottom: 60px;"></div>
 
 
-<div class="container hidden-xs" align="center">
+
+
+
+
+
+
+<div class="container hidden-xs" align="center" style="padding-bottom: 10px;">
   <div class="row">
 
 
-<div class="col-md-3 col-sm-4" align="left">
-  <h1 style="margin-bottom: -10px; margin-top: -10px;"><strong><span style="font-size: 18px;">(77)</span> 99822-5734</strong></h1>
-  <h4 style="">agromapas2017@gmail.com</h4>
+  <div class="col-md-3 col-sm-4 hidden-sm" align="left"><div class="row">
+    <h1 style="margin-bottom: -10px; margin-top: -10px;"><strong><span style="font-size: 18px;">(77)</span> 99822-5734</strong></h1>
+  </div></div>
+
+  <div class="col-md-6 col-sm-8" align="center">
+
+        <div class="navbar-header" align="center" style="margin-top: 0px; width: 100%;">
+        <a style="float: none;" class="navbar-brand" href="#">INSTITUCIONAL</a>
+        <a style="float: none;"  class="navbar-brand hidden-md" href="#">NOSSO TRABALHO</a>
+        <a style="float: none;"  class="navbar-brand" href="#">PORTFOLIO</a>
+        <a style="float: none;"  class="navbar-brand" href="#">CLIENTES</a>
+        <a style="float: none;"  class="navbar-brand" href="#">CONTATO</a>
+      </div><br class="visible-md visible-lg">
+
+  </div>
+
+  <div class="col-md-3 col-sm-4"><div class="row">
+  <a href="index.html"><img src="img/logo.png" style="float: right;  width: 150px;"></a>
+  </div></div>
+
+  </div>
 </div>
 
-<div class="col-md-6 col-sm-4" align="center">
-
-      <div class="navbar-header hidden-sm " align="center" style="margin-top: -15px; width: 100%;">
-      <a style="float: none;" class="navbar-brand" href="#">INSTITUCIONAL</a>
-      <a style="float: none;"  class="navbar-brand hidden-sm hidden-md" href="#">NOSSO TRABALHO</a>
-      <a style="float: none;"  class="navbar-brand" href="#">PORTFOLIO</a>
-      <a style="float: none;"  class="navbar-brand hidden-sm" href="#">CLIENTES</a>
-      <a style="float: none;"  class="navbar-brand" href="#">CONTATO</a>
-    </div><br class="visible-md visible-lg">
-
-<h6>Agromapas 2018 | Barreiras/BA</h6>
-</div>
-
-<div class="col-md-3 col-sm-4">
-<a href="index.html"><img src="img/logo.png" style="padding-bottom: 40px; float: right;  width: 150px;"></a>
-</div>
-
-</div>
-</div>
-
-<div class="container visible-xs" align="center">
-<a class="" href="index.html"><img src="img/logo.png" style="padding-bottom: 40px; width: 170px;"></a>
-<h6>Agromapas 2018 | Barreiras/BA</h6>
-</div>
-
-  <script src="js/jquery.fancybox.min.js"></script>
+<div class="container visible-xs" align="center"><a href="index.html"><img src="img/logo.png" style=" width: 150px; margin-bottom: 20px;"></a></div>
+<div class="container" align="center" style="border-top: 1px solid #ccc;"><h6>Agromapas 2018 | Barreiras/BA</h6></div>
+<script src="js/jquery.fancybox.min.js"></script>
 
 </body>
 </html>
