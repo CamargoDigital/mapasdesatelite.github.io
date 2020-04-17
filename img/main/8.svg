@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="104" viewBox="1 1 1040 1040">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #b1cd49;
+        stroke-width: 19.09px;
+      }
+
+      .cls-2 {
+        font-size: 112px;
+        fill: #b1cd49;
+        text-anchor: middle;
+        font-family: Barlow;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <circle id="Elipse_1" data-name="Elipse 1" class="cls-1" cx="521.5" cy="521.5" r="504.5"/>
+  <text id="_8" data-name="8" class="cls-2" transform="translate(522.738 743.216) scale(5.742)"><tspan x="0">8</tspan></text>
+</svg>

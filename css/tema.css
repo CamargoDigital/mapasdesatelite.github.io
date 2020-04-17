@@ -1,0 +1,138 @@
+header {
+	background-image: url(../img/barra-header.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 100%;
+}
+
+footer {
+  background-image: url(../img/barra-rodape.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+
+body {
+	background-image: url(../img/bg.png);
+  background-repeat: repeat;
+}
+
+.logo {
+  width: 100%;
+  max-width: 250px;
+  margin-top: 10px;
+}
+
+
+.titulos2 {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #004071;
+  text-align: center;   
+}
+
+.tituloverde {
+  font-weight: 900;
+  color: #b1cd49;
+}
+
+.titulobranco {
+  font-weight: 700;
+  color: #fff;
+}
+
+.iconessociais {
+  width: 40px;
+  height: auto;
+  float: right;
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  z-index: 100;
+}
+
+.pxs {
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.iconescontato {
+  width: 40px;
+  height: auto;
+  float: right;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100;
+}
+
+.telefone {
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 13px;
+}
+
+.clientes {
+  border: 1px solid #e1e1e1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+
+.clientesxs {
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.regua1 {
+  border-width: medium;
+  width: 300px;
+  position: absolute;
+  margin-top: 1px;
+  border-color: #b1cd49;
+}
+
+.hrtitulo {
+  border-color: #fff;
+  width: 70%;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.hrfb {
+  border-color: #2d4d7c;
+  width: 70%;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.paragrafog {
+  padding-top: 10px;
+  margin-bottom: 25px;
+  line-height: normal;
+}
+
+.paragrafop {
+  padding-top: 10px;
+  margin-bottom: 0px;
+  line-height: normal;
+}
+
+.titulomain {
+  font-weight: 700;
+  color: #2d4d7c;
+}
+
+.numerodireito {
+  width: 80px;
+  margin-left:1rem;
+  margin-right: 0
+}
+
+.titulopdt {
+  font-weight: 700;
+  color: #2d4d7c;
+}
